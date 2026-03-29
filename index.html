@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portofolio Mahasiswa</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+font-family:Arial;
+background:#d9e2eb;
+}
+
+/* navbar */
+.navbar{
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* header */
+.header{
+text-align:center;
+padding:60px 20px;
+background:rgb(228, 215, 215);
+margin-bottom:30px;
+}
+
+/* foto profil */
+.profile{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+/* section */
+.section{
+padding:40px 0;
+}
+
+/* card */
+.card{
+border:none;
+box-shadow:0 5px 12px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* teks */
+p{
+text-align:justify;
+line-height:1.7;
+}
+
+/* footer */
+footer{
+background:#212529;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">My Portfolio</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#skills">Skills</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#project">Project</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<!-- HEADER -->
+<div class="header">
+
+<img src="my photo.jpeg" class="profile">
+
+<h3>Riani Faot</h3>
+
+<p>Mahasiswa yang sedang belajar membuat website menggunakan HTML, CSS, dan Bootstrap.</p>
+
+</div>
+
+
+<!-- ABOUT -->
+<div class="container section" id="about">
+
+<h3 class="text-center mb-4">About Me</h3>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<p>
+Saya adalah mahasiswa yang sedang belajar pengembangan web. Saya tertarik mempelajari
+bagaimana membuat website yang menarik, rapi, dan mudah digunakan menggunakan HTML,
+CSS, dan Bootstrap.
+</p>
+
+</div>
+
+<div class="col-md-6">
+
+<p>
+Website portofolio ini dibuat sebagai bagian dari tugas kuliah dan untuk menunjukkan
+hasil pembelajaran dalam membuat desain halaman web sederhana yang responsif.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- SKILLS -->
+<div class="container section" id="skills">
+
+<h3 class="text-center mb-4">Skills</h3>
+
+<div class="row text-center">
+
+<div class="col-md-4">
+
+<div class="card p-3">
+<h5>HTML</h5>
+<p>Membuat struktur dasar halaman website.</p>
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-3">
+<h5>CSS</h5>
+<p>Mengatur tampilan dan desain website.</p>
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-3">
+<h5>Bootstrap</h5>
+<p>Membuat layout website lebih cepat dan responsive.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PROJECT -->
+<div class="container section" id="project">
+
+<h3 class="text-center mb-4">Project</h3>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="html.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Website Portfolio</h5>
+
+<p class="card-text">
+Website sederhana yang dibuat menggunakan HTML dan Bootstrap.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="boootstrap.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Desain Web</h5>
+
+<p class="card-text">
+Contoh desain halaman website yang responsif.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="w3school.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Tugas Kuliah</h5>
+
+<p class="card-text">
+Project website yang dibuat sebagai tugas pemrograman web.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CONTACT -->
+<div class="container section" id="contact">
+
+<h3 class="text-center mb-4">Contact</h3>
+
+<p class="text-center">
+Email : rianyfaot25@email.com <br>
+WhatsApp : 081337664761
+</p>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+
+<p>Copyright 2026 - Tugas Pemrograman Berbasis Web "Membuat Website pakai HTML, CSS, & Bootstrap" </p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
